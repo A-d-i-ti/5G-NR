@@ -31,10 +31,15 @@ wireless communication does not need a physical medium. It can travel just as we
 - Higher the frequency of operation, higher the corresponding path loss will be.
 - IN SIMPLE WORDS -_Higher the frequency of the radio signal higher the pathloss that it encounters when going from one point to another._
 - **Impediments that affect a wireless signal** -noise and interference
--**NOISE -** Noise is unwanted energy that is not deliberate in nature.
+- **NOISE -** Noise is unwanted energy that is not deliberate in nature.
 - In that the wireless noise or the electromagnetic noise is always present in most devices and most communication links. In fact, some of the noise can be one generated within the communication device itself, also known as **thermal noise**.
 - The ambient noise which is always present and cannot be minimized beneath a certain threshold .
 - **INTERFERENCE -** when two nearby transmitters and nearby is the key, when they use the same radio frequency at the same time, they create interference.
 - Interference is deliberate in nature and can be mitigated by careful planning of the frequency use by different entities in the network.
-- Noise and Interference have a tendency to c**hange some of the fundamental attributes** of the electromagnetic carrier wave so that it becomes little difficult for the intended receiver to demodulate and extract the intended information from the signal that has slightly been changed in form because of noise and interference. 
+- Noise and Interference have a tendency to **Change some of the fundamental attributes** of the electromagnetic carrier wave so that it becomes little difficult for the intended receiver to demodulate and extract the intended information from the signal that has slightly been changed in form because of noise and interference.
+- ![image](https://github.com/A-d-i-ti/5G-NR/assets/142913419/c3253189-f3a3-472e-9d66-a27f6c83f76b)
+- SNR - SIGNAL NOISE RATIO gives us an mathematical estimation of the noise present .
+- SINR - SIGNAL INTERFERENCE NOICE RATIO gives us an mathematical estimation of interference as well as noise present .
+- 
+
 - Noise and interference have a tendency to reduce the quality of the signal that is ultimately received .
