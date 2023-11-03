@@ -38,8 +38,15 @@ wireless communication does not need a physical medium. It can travel just as we
 - Interference is deliberate in nature and can be mitigated by careful planning of the frequency use by different entities in the network.
 - Noise and Interference have a tendency to **Change some of the fundamental attributes** of the electromagnetic carrier wave so that it becomes little difficult for the intended receiver to demodulate and extract the intended information from the signal that has slightly been changed in form because of noise and interference.
 - ![image](https://github.com/A-d-i-ti/5G-NR/assets/142913419/c3253189-f3a3-472e-9d66-a27f6c83f76b)
+
+-  Noise and interference have a tendency to reduce the quality of the signal that is ultimately received .
 - SNR - SIGNAL NOISE RATIO gives us an mathematical estimation of the noise present .
 - SINR - SIGNAL INTERFERENCE NOICE RATIO gives us an mathematical estimation of interference as well as noise present .
+- ![image](https://github.com/A-d-i-ti/5G-NR/assets/142913419/3c68b468-fe6a-40e8-b139-9d124a0e4b10)
+### RADIO SPECTRUM : 
+Radio spectrum essentially is just the range of radio frequencies over which a wireless communication takes place, for a specific purpose.
+- ![image](https://github.com/A-d-i-ti/5G-NR/assets/142913419/564d6641-55f0-47d9-9e75-8d4b27c861f3)
+- **There are some regulatory entity whose job it is to carefully assign dedicated slices of radio spectrum to different services.**
+- In case of United States, that government regulatory entity is the **FCC or Federal Communications Commission**
+- _It is the local regulatory authority that determines what spectrum will be used by what service, for what purpose._
 - 
-
-- Noise and interference have a tendency to reduce the quality of the signal that is ultimately received .
