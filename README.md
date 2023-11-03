@@ -91,3 +91,40 @@ A mobile network's coverage area is divided into what are called cells, the smal
 -  ![image](https://github.com/A-d-i-ti/5G-NR/assets/142913419/52483fc1-fc5b-4ad8-b7ea-3763957d5fa1)
 -  ### 5G NR Service Classes :
 -![image](https://github.com/A-d-i-ti/5G-NR/assets/142913419/55fb7bf8-9ad0-409d-8db8-1fd5a921ded4)
+
+1.**eMBB -** **Enhanced mobile broadband**
+- emphasis of eMBB clearly is on higher speeds and spectral efficiency because as we know, higher spectral efficiency contributes ultimately to higher speed.
+- ![image](https://github.com/A-d-i-ti/5G-NR/assets/142913419/14a5e6aa-ceac-4e0f-99ed-3731c312e2f9)
+-  even if somebody is on a high-speed train that is moving at 100 or 200 miles an hour, they will expect high-speed broadband-like Internet to be available to them and eMBB is in a position to provide exactly that.
+2.**MMTC Massive Machine Type Communications,**- known as _mIoT or massive IOT i.e INTERNET OF THINGS_
+- mMTC is the umbrella that enables such electronic devices to communicate with the network and enter with each other.
+- fundamental emphasis of mMTC is on power conservation and simplicity of protocols instead of spirit or spectral efficiency. 
+- ![image](https://github.com/A-d-i-ti/5G-NR/assets/142913419/34d19ebe-f202-424a-ac9f-e7150eb97793)
+- 
+- This particular service class is meant for devices or applications that are mostly unmanned.
+- For example, our phones or tablets are devices that we closely interact with on a daily basis.
+3. **URLLC ,Ultra reliable, Low latency Communications.**- 
+-URLLC is an umbrella that encompasses all the applications and use cases that require a highly reliable but at the same time low latency communication link.
+-FOR EXAMPLE ,Military, first responders, law enforcement for all of those use cases every second counts,
+-![image](https://github.com/A-d-i-ti/5G-NR/assets/142913419/615227e0-4125-4882-a5c0-fc5144ac7f62)
+- emphasis is on minimizing end to end latency instead of emphasizing higher speeds.
+- ### SOME TERMINALOGY :
+- ![image](https://github.com/A-d-i-ti/5G-NR/assets/142913419/6a07e8d0-2ded-406f-bc91-c74e1167f762)
+### DEPLOYMENT OF 5G NETWORK :
+-We habe two options for deployment --> 1.STANDALONE  2.NON-STANDALONE 
+- **STANDALONE,SA :** at one end you have a 5G phone which connects to a 5G gNodeB, which itself is a part of a wider 5G RAN, and the 5G RAN connects to a 5G core network also known as 5G C. So end-to-end, it is a 5G system. And because that end-to-end 5G system is capable of standing on its own, so to speak, that is the reason why this particular option of 5G network deployment is called a standalone option.
+Not only are the costs related to hardware and software, but keep in mind that in order for the RAN to operate in 5G technology, you have to have some 5G spectrum associated with that RAN. And you have to buy or lease that additional 5G spectrum, which operators currently don't have at least._SO FOR THIS SITUATION WE HAVE NON-STANTALONE DEPLOYMENT ._
+- **NON-STANDALONE DEPLOYMENT,NSA :** In a typical innocent network, operators can continue working with the existing 4G deployment. So operators who have 4G core network, which is called evolved packet core, will continue operating with that, and that 4G core network will connect with the nationwide deployment of 4G RAN.
+- An NSA option allows you to have only a limited or surgical deployment of 5G gNodeBs in areas where you have severe capacity challenges which cannot be met by LTE.
+- ![image](https://github.com/A-d-i-ti/5G-NR/assets/142913419/1de36dc6-73d6-4e65-a078-7c259671f1e9)
+- SOME ANALOGIES :
+- ![image](https://github.com/A-d-i-ti/5G-NR/assets/142913419/eab546ff-0bcc-42a5-98ee-0db5d870a561)
+- **A flexible slot-based** framework, as the name suggest , is about making timelines a little flexible.
+- frequency spectrum for those two seconds. Now, if the UE requires those two second. But what if the UE is faster than expected and it completes the task in just one second instead of two secondsAt least the resources corresponding to the remaining one second would be wasted because the UE has already completed its task. But that is where 5G makes all our operation more efficient in that not only does 5G allocate a given UE the precise amount of resources that will be needed to accomplish the task at hand.
+- flexible slot-based framework is equivalent to flexible road framework, wherein lane markers can shift dynamically, and that ultimately allows us to efficiently adapt to all traffic types and situations within the existing amount of resources we have without using any additional resources.
+- **OFDM Orthogonal Frequency Division Multiplexing:** OFDM allows you to send data not on wideband channels, but rather on multiple narrowband channels.
+- OFDM allows you to use precisely the amount of bandwidth that you require and you have available and that it makes the whole system modular.
+- scalable OFDM based air interface relates to a hypothetical road design where you can construct lanes out of Legos so to speak and you can add or subtract lanes on a given road precisely, depending upon the requirements of the oncoming traffic.
+- **CHANNEL CODING :** Channel coding at a high level is about taking your intended data that the transmitter has in mind and wrapping it up, so to speak, in additional metadata.
+-  That way, even if some of that data gets corrupted because of noise interference and pathloss, by looking at the metadata and the original data together, the receiver can make some educated guess about what the original data might have been
+
