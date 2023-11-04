@@ -126,5 +126,52 @@ Not only are the costs related to hardware and software, but keep in mind that i
 - OFDM allows you to use precisely the amount of bandwidth that you require and you have available and that it makes the whole system modular.
 - scalable OFDM based air interface relates to a hypothetical road design where you can construct lanes out of Legos so to speak and you can add or subtract lanes on a given road precisely, depending upon the requirements of the oncoming traffic.
 - **CHANNEL CODING :** Channel coding at a high level is about taking your intended data that the transmitter has in mind and wrapping it up, so to speak, in additional metadata.
--  That way, even if some of that data gets corrupted because of noise interference and pathloss, by looking at the metadata and the original data together, the receiver can make some educated guess about what the original data might have been
+   -  That way, even if some of that data gets corrupted because of noise interference and pathloss, by looking at the metadata and the original data together, the receiver can make 
+      some educated guess about what the original data might have been
+- **MIMO :** MIMO stands for multiple input, multiple output.
+  - Input in this context is the number of antennas on the transmitters and output in this context is the number of antennas on the receiver. So if both the transmitter and the receiver, multiple antennas, the multiple input multiple output, it is said to be a MIMO system.
+  -  nothing says that you have to be limited on either transmitter or receiver with just one antenna. What if both the transmitter and the receiver had one more antenna that was working in parallel.
+  -  So instead of sending just one wireless signal between two devices, you are now trying to send to different wireless signals between the same pair of devices.
+  -  It will significantly improve your data rate or speed or to put. And that is the fundamental premise of MIMO or multiple input, multiple output.
+  -  **if you send two different signals on the same channel at the same time, you will have interference ???**
+  -  to over come this interference problem ..two signals won't interfere with each other is because they are encoded by the transmitter differently.
+  - **Massive MIMO** in that by transmitting multiple wireless signals at the same time using the same frequency channel. MIMO significantly **increases network coverage and capacity** and soldiers massive MIMO.
+  - ![image](https://github.com/A-d-i-ti/5G-NR/assets/142913419/17af55d5-48f1-453f-9458-54ff37ea69b9)
+  - **Software-Defined Networking,SDN :**  is about making your network more software-oriented than they were before. In that are trying to implement as many functionalities in a software and not just that, trying to implement them in generic software that could be compatible between different vendors.
+  - With software-defined networking at a high level, the same underlying infrastructure because it is more software-oriented can be abstracted for different applications and network services.
+  -  Not only does it make your system more resilient in that backward compatibility and interoperability is less of a problem and because you can have many different application or software developers working on that generic networking software,
+  -  you also can benefit from rapid innovation in the entire ecosystem on account of the programmability that is offered by making these networks software-oriented
+  -  **Network Functions Virtualization,NFV :** It allows to host that specialized hardware or a server firm, which turns out to be in the real networks that is deployment or offload it onto a Cloud network.
+  -  _networking functionalities implemented as generic and broadly compatible software, that generic software can run on top of generic or as they call it COGS, **commercial off-the-shelf**_
+  - The big advantage of making it into a Cloud is that you have **instant scalability.**
+  -![image](https://github.com/A-d-i-ti/5G-NR/assets/142913419/7604495e-bbe0-4dfb-9cfa-aaec13b188d6)
+
+- Because this cloudification, so to speak, is completely transparent with the end devices, as long as you maintain the performance guarantees between the 5G network and your Cloud providers' network, you should be able to provide reliable end-to-end 5G service without hosting a coordinate work yourself because your coordinate work is now sitting somewhere in the Cloud. That is the fundamental Internet of network function virtualization.
+- **EDGE COMPUTING :**
+- Edge computing is an emerging computing paradigm which refers to a range of networks and devices at or near the user.
+-![image](https://github.com/A-d-i-ti/5G-NR/assets/142913419/937401a0-ea85-4b4f-bea9-9a8a3cf97c35)
+
+-Edge computing can easily facilitate services that require extremely strict bounds on latency, that require enhanced security, as well as additional bandwidth.
+- **5G utilizes in order to improve the network performance features such as network slicing, software-defined networking and network function virtualization, and mobile Edge computing or MEC.**
+****************************************************************************************************************************************************************************************
+### The 5G NR  :
+- we have the proverbial low bands that are under 1 Gigahertz, also informally known as Sub-1 GHz. Some of the example bands in which 5G could be deployed here are bands like 600 MHz, 700, or 850 MHz.
+- #### Millimeter wave mmWAVE :
+- Millimeter wave simply is a certain range of frequencies where your signal **wavelength is on the order of a few millimeters**. That's why the name millimeter wave.
+- there aren't any competing technologies in the millimeter wave spectrum, any technology that can successfully use the millimeter wave spectrum is going to have the proverbial first-mover advantage so to speak and it is going to have access to unprecedented amount of spectrum in other millimeter wave region.
+- Millimeter wave is about improving your technological capabilities and prowess so that you are now able to utilize some of the frequency spectra that were earlier unused and because they are unused, you will have access to abundant bandwidth in those frequency ranges on the order of 400 or 800 megahertz at a time.
+-  That enormous bandwidth directly translates to significantly higher individual user speeds and in aggregate manner, significantly higher network capacity.
+- ![image](https://github.com/A-d-i-ti/5G-NR/assets/142913419/4edbe887-af4e-4244-b803-1e73acd786bb)
++ **THE 5G NR SPECTRUM:**
+- ![image](https://github.com/A-d-i-ti/5G-NR/assets/142913419/5ce2de77-5c15-43b4-b145-5ae338fb9832)
+- the basic disadvantage of **licensed spectrum**, its cost is cut by a significant margin when you share spectrum with multiple player
+- with respect to **unlicensed spectrum**,it offers a good trade off between cost and performance.
+- ![image](https://github.com/A-d-i-ti/5G-NR/assets/142913419/4c9b3453-a667-4cf8-a324-bb8719c1975b)
+*****************************************************************************************************************************************************************************************
+### EVOLUTION OF RADIO ACCESS NETWORK : 
+-![image](https://github.com/A-d-i-ti/5G-NR/assets/142913419/0830b654-e60b-430e-b8a8-c09b101836f8)
+-![image](https://github.com/A-d-i-ti/5G-NR/assets/142913419/8907761a-87d1-4606-8dce-fcaeff0a32e5)
+
+
+
 
