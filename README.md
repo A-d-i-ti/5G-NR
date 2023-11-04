@@ -171,6 +171,7 @@ Not only are the costs related to hardware and software, but keep in mind that i
 ### EVOLUTION OF RADIO ACCESS NETWORK : 
 -![image](https://github.com/A-d-i-ti/5G-NR/assets/142913419/0830b654-e60b-430e-b8a8-c09b101836f8)
 -![image](https://github.com/A-d-i-ti/5G-NR/assets/142913419/8907761a-87d1-4606-8dce-fcaeff0a32e5)
+The concept of layerization in cellular networks in a typical ran or base station or in this specific case based band unit. It's not a homogeneous black box, but rather there are multiple layers of responsibility within BBU each layer has a unique functionalities and responsibilities. And one of those responsibilities is to make certain decisions and pursuant to that decision, go on the behavior of all the bottom layers. That is one common functionality of all the multiple layers that exist within a BBU. And in logical terms it is no different from a typical corporation
 
 
 
